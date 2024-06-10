@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
+        type="text/css" crossorigin>
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png" sizes="16x16 24x24 32x32 48x48 64x64" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#3364b3">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+    <title>NSA @ IJCAI23</title>
+</head>
+
+<body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+        <h1 class="project-name">NSA: Neuro-Symbolic Agents Workshop</h1>
+        <h2 class="project-tagline">IJCAI 2023 at Macao, S.A.R</h2>
+        <h2 class="project-tagline">Combining ML and symbolic AI for reinforcement learning</h2>
+        <a href="#cfp" class="btn">CFP</a>
+        <a href="#dates" class="btn">Important Dates</a>
+        <a href="#papers" class="btn">Accepted Papers</a>
+        <a href="#schedule" class="btn">Schedule</a>
+        <a href="#invited" class="btn">Invited Talks</a>
+        <a href="#organizers" class="btn">Organizers</a>
+        <a href="#pcs" class="btn">PCs</a>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+        <h1 id="workshop-description">Workshop Description</h1>
+
+<p>Deep Reinforcement Learning (RL) has been widely applied to many applications in various domains including computer games, language, vision, and real robot control (Mnih et al., 2015; Narasimhan et al., 2015; Yuan et al., 2018). In real-world applications, state of the art RL algorithms still face some challenges, including sample inefficiency, explainability of the learned policy, partial observability, dynamic environments, sparse rewards, and safety constraints. For example, these methods require many training trials to converge to the optimal action policy due to extremely large state spaces from the environment. Moreover, even if the algorithm converges, the trained action policy is not understandable to human operators because the policy is stored in a black-box deep neural network. These issues become critical when human operators want to verify the trained rules, control the trained agent, and to add action restrictions.</p>
+
+<p>In order to address these issues, reinforcement learning methods which introduce symbolic representations and reasoning in deep complex network have been proposed in Dong et al. (2019); Anderson et al. (2020); Kimura et al. (2021); Chaudhury et al. (2021). Neural Logic Machine (NLM, Dong et al. (2019)) incorporates a neural-symbolic architecture for both inductive learning and logic reasoning, using tensors to represent logic predicates. Reinforcement Learning with Formally Verified Exploration (REVEL, Anderson et al. (2020)) has two policy classes: a general, neurosymbolic class with approximate gradients and a more restricted class of symbolic policies that allows efficient verification. Neuro-Symbolic Reinforcement Learning with First-Order Logic in LNN (FOL-LNN, Kimura et al. (2021)) proposes an algorithm for extracting first-order logical facts from text observation and external word meaning network, and trains a policy using logical neural network (LNN, Riegel et al. (2020)) with directly interpretable logical operators. SymboLic Action policy for Textual Environments (SLATE, Chaudhury et al. (2021)) learns interpretable action policy rules from symbolic abstractions of textual observations for improved generalization. These methods are generally called “Neuro-Symbolic Reinforcement Learning”, and they combine knowledge-driven symbolic reasoning and data-driven machine learning approaches.</p>
+
+<p>We believe that incorporating symbolic representations and reasoning into deep learning can potentially solve many of the challenges facing action decision making and reinforcement learning. The primary goal of this workshop is to facilitate community building: we hope to bring researchers together to consolidate this line of research and foster collaboration in the community.</p>
+
+<p>In this workshop, we will cover following challenges in decision making and RL:</p>
+
+<ul>
+  <li><strong>Neuro-Symbolic Agents</strong></li>
+  <li><strong>Neuro-Symbolic Reinforcement Learning</strong></li>
+  <li><strong>Neuro-Symbolic Chat Bot</strong></li>
+  <li><strong>Safe Reinforcement Learning by Neuro-Symbolic Approach</strong></li>
+  <li><strong>Explainability through Neuro-Symbolic Reinforcement Learning</strong></li>
+  <li><strong>Neuro-Symbolic Model-based Reinforcement Learning</strong></li>
+  <li><strong>Decision Making by Planning with Neuro-Symbolic Approaches</strong></li>
+</ul>
+
+<h1 id="cfp">Call for Paper</h1>
+
+<p>We welcome original research papers ranging between <strong>4-8 pages</strong> in length (not including references or supplementary materials) which is formatted according to the IJCAI guidelines <a href="https://www.ijcai.org/authors_kit">link</a>. Reviews are <strong>double blind</strong>, so no identifying information should be on the papers.</p>
+
+<p>Please submit your paper at here: <a href="https://cmt3.research.microsoft.com/NSAIJCAI2023/Submission/Index">Microsoft CMT site</a></p>
+
+<p>We also welcome extended abstracts of up to <strong>2 pages</strong> (not including references) that describe open problems and challenges in the area of Neuro-Symbolic Agent.</p>
+
+<p>The papers will be non-archival, which means we welcome papers that have been published or submitted to other conferences and journals. However, authors are required to acknowledge their papers’ original appearance in such cases.</p>
+
+<p>All accepted papers and extended abstracts will be presented as posters.</p>
+
+<p>The program committee will select some papers for oral presentation.
+There will be a poster session during the scheduled coffee breaks to facilitate discussions among attendees.</p>
+
+<p><strong>Summary:</strong></p>
+
+<ul>
+  <li><strong>Length: 4-8 pages (research paper), or 2 pages (extended abstract)</strong></li>
+  <li><strong>Double blind</strong></li>
+  <li><strong>Two types of accept: Accept (oral &amp; poster), Accept (poster)</strong></li>
+  <li><strong>Submission site: <a href="https://cmt3.research.microsoft.com/NSAIJCAI2023/Submission/Index">Microsoft CMT site</a></strong></li>
+</ul>
+
+<h1 id="dates">Important Dates</h1>
+
+<ul>
+  <li>Submission deadline: <strong>May 25th, 2023 (11:59 pm AOE)</strong></li>
+  <li>Acceptance notification: <strong>June 5th, 2023</strong></li>
+  <li>Camera ready for accepted submissions: <strong>June 20th, 2023 (11:59 pm AOE)</strong></li>
+  <li>Workshop date: <strong>August 20th, 2023: Workshop W26 @ Almaty 6006</strong></li>
+</ul>
+
+<h1 id="papers">Accepted papers</h1>
+
+<h4 id="oral-and-poster">Oral and Poster</h4>
+
+<ul>
+  <li>Minori Narita, and Daiki Kimura, “Introducing Trial-and-Error Exploration to Avoid Critical Failure for Efficient Reinforcement Learning”</li>
+  <li>Jaeil Park, and Sung-Bae Cho, “<a href="assets/papers/A Neuro-Symbolic Approach with Reinforcement Learning for Explainable Question Answering in Pedestrian Anomaly Video Sequence.pdf">A Neuro-Symbolic Approach with Reinforcement Learning for Explainable Question Answering in Pedestrian Anomaly Video Sequence</a>”</li>
+  <li>Daiki Kimura, Stefan Zecevic, Subhajit Chaudhury, Sarathkrishna Swaminathan, Don Joven Agravante, Michiaki Tatsubori, Asim Munawar, and Alexander Gray, “Explainable Neuro-Symbolic Reinforcement Learning”</li>
+  <li>Naman Shah, and Siddharth Srivastava, “Learning Neuro-Symbolic Abstractions for Motion Planning Under Uncertainty”</li>
+  <li>Don Joven Agravante, Daiki Kimura, Michiaki Tatsubori, Asim Munawar, and Alexander Gray, “<a href="assets/papers/Neuro-Symbolic Model-based RL with Logical Neural Network.pdf">Neuro-Symbolic Model-based RL with Logical Neural Network</a>”</li>
+  <li>Leonid A Ugadiarov, and Aleksandr Panov, “<a href="assets/papers/Object-Oriented Decomposition of World Model in Reinforcement Learning.pdf">Object-Oriented Decomposition of World Model in Reinforcement Learning</a>”</li>
+</ul>
+
+<h4 id="poster">Poster</h4>
+
+<ul>
+  <li>Guy Azran, Mohamad H Danesh, Stefano V Albrecht, and Sarah Keren, “<a href="assets/papers/Contextual Pre-Planning on Reward Machine Abstractions for Enhanced Transfer in Deep Reinforcement Learning.pdf">Contextual Pre-Planning on Reward Machine Abstractions for Enhanced Transfer in Deep Reinforcement Learning</a>”</li>
+  <li>Zahra Chaghazardi, Saber Fallah, and Alireza Nezhad-Tamaddoni, “Explainable and Trustworthy Traffic Sign Detection for Safe Autonomous Driving: A Neuro-Symbolic approach”</li>
+  <li>Giacomo Frisoni, Paolo Italiani, Stefano Salvatori, and Gianluca Moro, “<a href="assets/papers/Cogito Ergo Summ Abstractive Summarization of Biomedical Papers via Semantic Parsing Graphs and Consistency Rewards.pdf">Cogito Ergo Summ: Abstractive Summarization of Biomedical Papers via Semantic Parsing Graphs and Consistency Rewards</a>”</li>
+  <li>Chitra K Subramanian, Sarathkrishna Swaminathan, Miao Liu, Mauricio Longinos, Aporva Amarnath, Karthik Swaminathan, Martin Cochet, Kevin Roman, and Pradip Bose, “<a href="assets/papers/A Neuro-Symbolic Approach to Runtime Optimization in Resource Constrained Heterogeneous Systems.pdf">A Neuro-Symbolic Approach to Runtime Optimization in Resource Constrained Heterogeneous Systems</a>”</li>
+  <li>Daniil Kirilenko, Vitaliy Vorobyov, Alexey K Kovalev, and Aleksandr Panov, “<a href="assets/papers/COMPAS Compose Actions and Slots in Object-Centric World Models.pdf">COMPAS: Compose Actions and Slots in Object-Centric World Models</a>”</li>
+</ul>
+
+<h1 id="schedule">Schedule</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>        Agenda        </th>
+      <th style="text-align: left"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>8:50</td>
+      <td>Opening</td>
+      <td style="text-align: left">Ndivhuwo Makondo</td>
+    </tr>
+    <tr>
+      <td>9:00</td>
+      <td>Invited talk</td>
+      <td style="text-align: left">Alexander Gray, “Can Knowledge, Reasoning, and Learning be Smoothly Integrated? Toward Safe AI Agents”</td>
+    </tr>
+    <tr>
+      <td>10:00</td>
+      <td>Contributed talk</td>
+      <td style="text-align: left">Daiki Kimura, “Explainable Neuro-Symbolic Reinforcement Learning”</td>
+    </tr>
+    <tr>
+      <td>10:30</td>
+      <td>Coffee break</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td>11:00</td>
+      <td>Invited talk</td>
+      <td style="text-align: left">Luc De Raedt, “How to Make Logics Neurosymbolic”</td>
+    </tr>
+    <tr>
+      <td>12:00</td>
+      <td>Contributed talk</td>
+      <td style="text-align: left">Aleksandr Panov, “Object-Oriented Decomposition of World Model in Reinforcement Learning”</td>
+    </tr>
+    <tr>
+      <td>12:30</td>
+      <td>Lunch break</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td>14:00</td>
+      <td>Invited talk</td>
+      <td style="text-align: left">Wang-Zhou Dai, “Towards Openworld Abductive Learning”</td>
+    </tr>
+    <tr>
+      <td>15:00</td>
+      <td>Contributed talk</td>
+      <td style="text-align: left">Naman Shah, “Learning Neuro-Symbolic Abstraction for Motion Planning Under Uncertainty”</td>
+    </tr>
+    <tr>
+      <td>15:30</td>
+      <td>Coffee break</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td>16:00</td>
+      <td>Contributed talk</td>
+      <td style="text-align: left">Jaeil Park, “A Neuro-Symbolic Approach with Reinforcement Learning for Explainable Question Answering in Pedestrian Anomaly Video Sequence”</td>
+    </tr>
+    <tr>
+      <td>16:30</td>
+      <td>Contributed talk</td>
+      <td style="text-align: left">Daiki Kimura, “Introducing Trial-and-Error Exploration to Avoid Critical Failure for Efficient Reinforcement Learning”</td>
+    </tr>
+    <tr>
+      <td>16:45</td>
+      <td>Contributed talk</td>
+      <td style="text-align: left">Daiki Kimura, “Neuro-Symbolic Model-based RL with Logical Neural Network”</td>
+    </tr>
+    <tr>
+      <td>17:00</td>
+      <td>Poster</td>
+      <td style="text-align: left">All contributed papers</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="invited">Invited Talks</h1>
+
+<div class="row justify-content-center">
+  
+  <div class="col-lg-3 text-center">
+    <div class="member-box">
+      <div class="member-image">
+        <a href="https://research.gatech.edu/data/seminar-series/alexander-gray">
+        <img alt="Alexander Gray" class="img-fluid mb-2" style="height: 180px;" src="assets/img/Alexander_Gray.jpg" />
+        </a>
+      </div>
+      <div class="member-meta">
+        <a href="https://research.gatech.edu/data/seminar-series/alexander-gray">Alexander Gray</a><br />
+        IBM Thomas J. Watson Research Center
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-3 text-center">
+    <div class="member-box">
+      <div class="member-image">
+        <a href="https://wms.cs.kuleuven.be/people/lucderaedt">
+        <img alt="Luc De Raedt" class="img-fluid mb-2" style="height: 180px;" src="assets/img/Luc_De_Raedt.jpg" />
+        </a>
+      </div>
+      <div class="member-meta">
+        <a href="https://wms.cs.kuleuven.be/people/lucderaedt">Luc De Raedt</a><br />
+        KU Leuven
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-3 text-center">
+    <div class="member-box">
+      <div class="member-image">
+        <a href="https://daiwz.net/">
+        <img alt="Wang-Zhou Dai" class="img-fluid mb-2" style="height: 180px;" src="assets/img/WangZhou_Dai.jpg" />
+        </a>
+      </div>
+      <div class="member-meta">
+        <a href="https://daiwz.net/">Wang-Zhou Dai</a><br />
+        Nanjing University
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<div class="text-center"> * in alphabetical order</div>
+
+<h1 id="organizers">Organizers</h1>
+
+<div class="row justify-content-center">
+  
+  <div class="col-lg-3 text-center">
+    <div class="member-box">
+      <div class="member-image">
+        <a href="http://wp.doc.ic.ac.uk/arusso/">
+        <img alt="Alessandra Russo" class="img-fluid mb-2" style="height: 180px;" src="assets/img/Alessandra_Russo.jpg" />
+        </a>
+      </div>
+      <div class="member-meta">
+        <a href="http://wp.doc.ic.ac.uk/arusso/">Alessandra Russo</a><br />
+        Imperial College London
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-3 text-center">
+    <div class="member-box">
+      <div class="member-image">
+        <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-DAIKI">
+        <img alt="Daiki Kimura" class="img-fluid mb-2" style="height: 180px;" src="assets/img/Daiki_Kimura.jpg" />
+        </a>
+      </div>
+      <div class="member-meta">
+        <a href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-DAIKI">Daiki Kimura</a><br />
+        IBM Research - Tokyo <br /> <i>(primary contact)</i>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-3 text-center">
+    <div class="member-box">
+      <div class="member-image">
+        <a href="https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Ndivhuwo.Makondo">
+        <img alt="Ndivhuwo Makondo" class="img-fluid mb-2" style="height: 180px;" src="assets/img/Ndivhuwo_Makondo.jpg" />
+        </a>
+      </div>
+      <div class="member-meta">
+        <a href="https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Ndivhuwo.Makondo">Ndivhuwo Makondo</a><br />
+        IBM Research - Africa
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-3 text-center">
+    <div class="member-box">
+      <div class="member-image">
+        <a href="https://www.wits.ac.za/staff/academic-a-z-listing/j/stevenjameswitsacza/">
+        <img alt="Steven James" class="img-fluid mb-2" style="height: 180px;" src="assets/img/Steven_James.jpg" />
+        </a>
+      </div>
+      <div class="member-meta">
+        <a href="https://www.wits.ac.za/staff/academic-a-z-listing/j/stevenjameswitsacza/">Steven James</a><br />
+        University of the Witwatersrand
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<div class="text-center"> * in alphabetical order</div>
+
+<h1 id="pcs">Program Committee</h1>
+
+<ul>
+  <li>
+    <p>Divanisha Patel (University of the Witwatersrand)</p>
+  </li>
+  <li>
+    <p>Geraud Nangue Tasse (University of the Witwatersrand)</p>
+  </li>
+  <li>
+    <p>Jiayuan Mao (Massachusetts Institute of Technology)</p>
+  </li>
+  <li>
+    <p>Kyle Harper Erwin (IBM Research - Africa)</p>
+  </li>
+  <li>
+    <p>Minori Narita (University of Toronto)</p>
+  </li>
+  <li>
+    <p>Naweed Aghmad Khan (IBM Research - Africa)</p>
+  </li>
+  <li>
+    <p>Sarathkrishna Swaminathan (IBM Research - Almaden)</p>
+  </li>
+  <li>
+    <p>Tristan Bester (University of the Witwatersrand)</p>
+  </li>
+</ul>
+
+<div class="text-center"> * in alphabetical order</div>
+
+<h3 id="reference">Reference</h3>
+
+<ul>
+  <li>Anderson, G., Verma, A., Dillig, I., and Chaudhuri, S., “Neurosymbolic reinforcement learning with formally verified exploration”, NeurIPS 2020.</li>
+  <li>Chaudhury, S., Sen, P., Ono, M., Kimura, D., Tatsubori, M., and Munawar, A., “Neuro-symbolic approaches for text-based policy learning”, EMNLP 2021.</li>
+  <li>Dong, H., Mao, J., Lin, T., Wang, C., Li, L., and Zhou, D., “Neural logic machines”, ICLR 2019.</li>
+  <li>Kimura, D., Ono, M., Chaudhury, S., Kohita, R., Wachi, A., Agravante, D. J., Tatsubori, M., Munawar, A., and Gray, A., “Neuro-symbolic reinforcement learning with first-order logic”, EMNLP 2021.</li>
+  <li>Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A. A., Veness, J., Bellemare, M. G., Graves, A., Riedmiller, M. A., Fidjeland, A., Ostrovski, G., Petersen, S., Beattie, C., Sadik, A., Antonoglou, I., King, H., Kumaran, D., Wierstra, D., Legg, S., and Hassabis, D., “Human-level control through deep reinforcement learning”, Nature 2015.</li>
+  <li>Narasimhan, K., Kulkarni, T. D., and Barzilay, R., “Language understanding for text-based games using deep reinforcement learning”, EMNLP 2015.</li>
+  <li>Riegel, R., Gray, A. G., Luus, F. P. S., Khan, N., Makondo, N., Akhalwaya, I. Y., Qian, H., Fagin, R., Barahona, F., Sharma, U., Ikbal, S., Karanam, H., Neelam, S., Likhyani, A., and Srivastava, S. K., “Logical neural networks”, arXiv 2020.</li>
+  <li>Yuan, X., Côté, M., Sordoni, A., Laroche, R., des Combes, R. T., Hausknecht, M. J., and Trischler, A., “Counting to explore and generalize in text-based games”, arXiv 2018.</li>
+</ul>
+
+    </main>
+</body>
+
+</html>
