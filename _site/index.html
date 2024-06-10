@@ -48,25 +48,24 @@
     <main id="content" class="main-content" role="main">
         <h1 id="workshop-description">Workshop Description</h1>
 
-<p>Deep Reinforcement Learning (RL) has been widely applied to many applications in various domains including computer games, language, vision, and real robot control (Mnih et al., 2015; Narasimhan et al., 2015; Yuan et al., 2018). In real-world applications, state of the art RL algorithms still face some challenges, including sample inefficiency, explainability of the learned policy, partial observability, dynamic environments, sparse rewards, and safety constraints. For example, these methods require many training trials to converge to the optimal action policy due to extremely large state spaces from the environment. Moreover, even if the algorithm converges, the trained action policy is not understandable to human operators because the policy is stored in a black-box deep neural network. These issues become critical when human operators want to verify the trained rules, control the trained agent, and to add action restrictions.</p>
+<p>The software engineering community has a strong history on symbolic methods (formal methods, programming languages, etc.) and, more recently, has been quickly adopting machine learning techniques in most of its tasks like automated program repair, program synthesis, code generation &amp; summarization and verification planning.  Many have also taken note of the possibilities of combining the strengths of symbolic and learning techniques, for instance, in the engineering complex software in autonomic, self-adaptive systems, and multi-agents systems as well improving automated methods for bug fixing, code review, and test generation.</p>
 
-<p>In order to address these issues, reinforcement learning methods which introduce symbolic representations and reasoning in deep complex network have been proposed in Dong et al. (2019); Anderson et al. (2020); Kimura et al. (2021); Chaudhury et al. (2021). Neural Logic Machine (NLM, Dong et al. (2019)) incorporates a neural-symbolic architecture for both inductive learning and logic reasoning, using tensors to represent logic predicates. Reinforcement Learning with Formally Verified Exploration (REVEL, Anderson et al. (2020)) has two policy classes: a general, neurosymbolic class with approximate gradients and a more restricted class of symbolic policies that allows efficient verification. Neuro-Symbolic Reinforcement Learning with First-Order Logic in LNN (FOL-LNN, Kimura et al. (2021)) proposes an algorithm for extracting first-order logical facts from text observation and external word meaning network, and trains a policy using logical neural network (LNN, Riegel et al. (2020)) with directly interpretable logical operators. SymboLic Action policy for Textual Environments (SLATE, Chaudhury et al. (2021)) learns interpretable action policy rules from symbolic abstractions of textual observations for improved generalization. These methods are generally called “Neuro-Symbolic Reinforcement Learning”, and they combine knowledge-driven symbolic reasoning and data-driven machine learning approaches.</p>
+<p>We plan to collect experiences, challenges, and solutions involved in combining symbolic methods and machine learning to tackle new and traditional challenges of software engineering task from requirements to analysis &amp; design, coding, testing, and maintenance &amp; evolution. These contributions could be in the form of case studies, proofs-of-concept, new ideas and emerging results, evaluation of tools, controlled experiments with software engineers. e.g., specifying logical rules/constraints or utilizing machine learning recommendations.</p>
 
-<p>We believe that incorporating symbolic representations and reasoning into deep learning can potentially solve many of the challenges facing action decision making and reinforcement learning. The primary goal of this workshop is to facilitate community building: we hope to bring researchers together to consolidate this line of research and foster collaboration in the community.</p>
-
-<p>In this workshop, we will cover following challenges in decision making and RL:</p>
+<p>Preliminary List of Topics</p>
 
 <ul>
-  <li><strong>Neuro-Symbolic Agents</strong></li>
-  <li><strong>Neuro-Symbolic Reinforcement Learning</strong></li>
-  <li><strong>Neuro-Symbolic Chat Bot</strong></li>
-  <li><strong>Safe Reinforcement Learning by Neuro-Symbolic Approach</strong></li>
-  <li><strong>Explainability through Neuro-Symbolic Reinforcement Learning</strong></li>
-  <li><strong>Neuro-Symbolic Model-based Reinforcement Learning</strong></li>
-  <li><strong>Decision Making by Planning with Neuro-Symbolic Approaches</strong></li>
+  <li>Neuro-symbolic methods in automated software engineering tools, e.g., code &amp; test generation, bug fixing, code summarization, code review, etc.</li>
+  <li>Neuro-Symbolic agents to support collaboration and decision making in software teams.</li>
+  <li>Neuro-Symbolic methods in validation and verification tools.</li>
+  <li>Neuro-Symbolic methods for designing safety-mission-critical systems.</li>
+  <li>Neuro-Symbolic methods for extracting and maintaining knowledge graphs for software engineering.</li>
+  <li>Methods for reasoning about learning from software data.</li>
+  <li>Methods for learning while reasoning about software, e.g., automatically &amp; adaptively determine decision thresholds and magnitude of actions for a desired effect of a software tool &amp; technique.</li>
+  <li>Methods for applying prior symbolic or probabilistic knowledge to new or improved software tools &amp; methods.</li>
 </ul>
 
-<h1 id="cfp">Call for Paper</h1>
+<h1 id="cfp">Call for Papers</h1>
 
 <p>We welcome original research papers ranging between <strong>4-8 pages</strong> in length (not including references or supplementary materials) which is formatted according to the IJCAI guidelines <a href="https://www.ijcai.org/authors_kit">link</a>. Reviews are <strong>double blind</strong>, so no identifying information should be on the papers.</p>
 
@@ -103,24 +102,11 @@ There will be a poster session during the scheduled coffee breaks to facilitate 
 
 <h4 id="oral-and-poster">Oral and Poster</h4>
 
-<ul>
-  <li>Minori Narita, and Daiki Kimura, “Introducing Trial-and-Error Exploration to Avoid Critical Failure for Efficient Reinforcement Learning”</li>
-  <li>Jaeil Park, and Sung-Bae Cho, “<a href="assets/papers/A Neuro-Symbolic Approach with Reinforcement Learning for Explainable Question Answering in Pedestrian Anomaly Video Sequence.pdf">A Neuro-Symbolic Approach with Reinforcement Learning for Explainable Question Answering in Pedestrian Anomaly Video Sequence</a>”</li>
-  <li>Daiki Kimura, Stefan Zecevic, Subhajit Chaudhury, Sarathkrishna Swaminathan, Don Joven Agravante, Michiaki Tatsubori, Asim Munawar, and Alexander Gray, “Explainable Neuro-Symbolic Reinforcement Learning”</li>
-  <li>Naman Shah, and Siddharth Srivastava, “Learning Neuro-Symbolic Abstractions for Motion Planning Under Uncertainty”</li>
-  <li>Don Joven Agravante, Daiki Kimura, Michiaki Tatsubori, Asim Munawar, and Alexander Gray, “<a href="assets/papers/Neuro-Symbolic Model-based RL with Logical Neural Network.pdf">Neuro-Symbolic Model-based RL with Logical Neural Network</a>”</li>
-  <li>Leonid A Ugadiarov, and Aleksandr Panov, “<a href="assets/papers/Object-Oriented Decomposition of World Model in Reinforcement Learning.pdf">Object-Oriented Decomposition of World Model in Reinforcement Learning</a>”</li>
-</ul>
+<p>TBD</p>
 
 <h4 id="poster">Poster</h4>
 
-<ul>
-  <li>Guy Azran, Mohamad H Danesh, Stefano V Albrecht, and Sarah Keren, “<a href="assets/papers/Contextual Pre-Planning on Reward Machine Abstractions for Enhanced Transfer in Deep Reinforcement Learning.pdf">Contextual Pre-Planning on Reward Machine Abstractions for Enhanced Transfer in Deep Reinforcement Learning</a>”</li>
-  <li>Zahra Chaghazardi, Saber Fallah, and Alireza Nezhad-Tamaddoni, “Explainable and Trustworthy Traffic Sign Detection for Safe Autonomous Driving: A Neuro-Symbolic approach”</li>
-  <li>Giacomo Frisoni, Paolo Italiani, Stefano Salvatori, and Gianluca Moro, “<a href="assets/papers/Cogito Ergo Summ Abstractive Summarization of Biomedical Papers via Semantic Parsing Graphs and Consistency Rewards.pdf">Cogito Ergo Summ: Abstractive Summarization of Biomedical Papers via Semantic Parsing Graphs and Consistency Rewards</a>”</li>
-  <li>Chitra K Subramanian, Sarathkrishna Swaminathan, Miao Liu, Mauricio Longinos, Aporva Amarnath, Karthik Swaminathan, Martin Cochet, Kevin Roman, and Pradip Bose, “<a href="assets/papers/A Neuro-Symbolic Approach to Runtime Optimization in Resource Constrained Heterogeneous Systems.pdf">A Neuro-Symbolic Approach to Runtime Optimization in Resource Constrained Heterogeneous Systems</a>”</li>
-  <li>Daniil Kirilenko, Vitaliy Vorobyov, Alexey K Kovalev, and Aleksandr Panov, “<a href="assets/papers/COMPAS Compose Actions and Slots in Object-Centric World Models.pdf">COMPAS: Compose Actions and Slots in Object-Centric World Models</a>”</li>
-</ul>
+<p>TBD</p>
 
 <h1 id="schedule">Schedule</h1>
 
@@ -263,13 +249,27 @@ There will be a poster session during the scheduled coffee breaks to facilitate 
   <div class="col-lg-3 text-center">
     <div class="member-box">
       <div class="member-image">
-        <a href="http://wp.doc.ic.ac.uk/arusso/">
-        <img alt="Alessandra Russo" class="img-fluid mb-2" style="height: 180px;" src="assets/img/Alessandra_Russo.jpg" />
+        <a href="https://hpi.de/giese/people/christian-medeiros-adriano.html">
+        <img alt="Christian Medeiros Adriano" class="img-fluid mb-2" style="height: 180px;" src="assets/img/christian-adriano.jpg" />
         </a>
       </div>
       <div class="member-meta">
-        <a href="http://wp.doc.ic.ac.uk/arusso/">Alessandra Russo</a><br />
-        Imperial College London
+        <a href="https://hpi.de/giese/people/christian-medeiros-adriano.html">Christian Medeiros Adriano</a><br />
+        Hasso Plattner Institute, University of Potsdam, Germany
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-3 text-center">
+    <div class="member-box">
+      <div class="member-image">
+        <a href="https://hpi.de/en/giese/people/sona-ghahremani.html">
+        <img alt="Sona Ghahremani" class="img-fluid mb-2" style="height: 180px;" src="assets/img/sona.jpg" />
+        </a>
+      </div>
+      <div class="member-meta">
+        <a href="https://hpi.de/en/giese/people/sona-ghahremani.html">Sona Ghahremani</a><br />
+        Hasso Plattner Institute, University of Potsdam, Germany
       </div>
     </div>
   </div>
@@ -291,27 +291,13 @@ There will be a poster session during the scheduled coffee breaks to facilitate 
   <div class="col-lg-3 text-center">
     <div class="member-box">
       <div class="member-image">
-        <a href="https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Ndivhuwo.Makondo">
-        <img alt="Ndivhuwo Makondo" class="img-fluid mb-2" style="height: 180px;" src="assets/img/Ndivhuwo_Makondo.jpg" />
+        <a href="https://research.imc.ac.at/de/persons/ruben-ruiz-torrubiano">
+        <img alt="Rubén Ruiz-Torrubiano" class="img-fluid mb-2" style="height: 180px;" src="assets/img/ruben.png" />
         </a>
       </div>
       <div class="member-meta">
-        <a href="https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Ndivhuwo.Makondo">Ndivhuwo Makondo</a><br />
-        IBM Research - Africa
-      </div>
-    </div>
-  </div>
-  
-  <div class="col-lg-3 text-center">
-    <div class="member-box">
-      <div class="member-image">
-        <a href="https://www.wits.ac.za/staff/academic-a-z-listing/j/stevenjameswitsacza/">
-        <img alt="Steven James" class="img-fluid mb-2" style="height: 180px;" src="assets/img/Steven_James.jpg" />
-        </a>
-      </div>
-      <div class="member-meta">
-        <a href="https://www.wits.ac.za/staff/academic-a-z-listing/j/stevenjameswitsacza/">Steven James</a><br />
-        University of the Witwatersrand
+        <a href="https://research.imc.ac.at/de/persons/ruben-ruiz-torrubiano">Rubén Ruiz-Torrubiano</a><br />
+        IMC Krems University of Applied Sciences, Austria
       </div>
     </div>
   </div>

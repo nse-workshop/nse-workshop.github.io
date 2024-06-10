@@ -19,25 +19,27 @@ speakers:
     image: assets/img/WangZhou_Dai.jpg
 
 organizers:
-  - name: Alessandra Russo
-    url: http://wp.doc.ic.ac.uk/arusso/
-    affiliation: Imperial College London
-    image: assets/img/Alessandra_Russo.jpg
+  - name: Christian Medeiros Adriano
+    url: https://hpi.de/giese/people/christian-medeiros-adriano.html
+    affiliation: Hasso Plattner Institute, University of Potsdam, Germany
+    image: assets/img/christian-adriano.jpg
+
+  - name: Sona Ghahremani
+    url: https://hpi.de/en/giese/people/sona-ghahremani.html
+    affiliation: Hasso Plattner Institute, University of Potsdam, Germany
+    image: assets/img/sona.jpg
 
   - name: Daiki Kimura
     url: https://researcher.watson.ibm.com/researcher/view.php?person=jp-DAIKI
     affiliation: IBM Research - Tokyo <br> <i>(primary contact)</i>
     image: assets/img/Daiki_Kimura.jpg
 
-  - name: Ndivhuwo Makondo
-    url: https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Ndivhuwo.Makondo
-    affiliation: IBM Research - Africa
-    image: assets/img/Ndivhuwo_Makondo.jpg
+  - name: Rubén Ruiz-Torrubiano
+    url: https://research.imc.ac.at/de/persons/ruben-ruiz-torrubiano
+    affiliation: IMC Krems University of Applied Sciences, Austria
+    image: assets/img/ruben.png
 
-  - name: Steven James
-    url: https://www.wits.ac.za/staff/academic-a-z-listing/j/stevenjameswitsacza/
-    affiliation: University of the Witwatersrand
-    image: assets/img/Steven_James.jpg
+   
 
 pcs:
   - name: Divanisha Patel
@@ -67,25 +69,26 @@ pcs:
 
 # Workshop Description
 
-Deep Reinforcement Learning (RL) has been widely applied to many applications in various domains including computer games, language, vision, and real robot control (Mnih et al., 2015; Narasimhan et al., 2015; Yuan et al., 2018). In real-world applications, state of the art RL algorithms still face some challenges, including sample inefficiency, explainability of the learned policy, partial observability, dynamic environments, sparse rewards, and safety constraints. For example, these methods require many training trials to converge to the optimal action policy due to extremely large state spaces from the environment. Moreover, even if the algorithm converges, the trained action policy is not understandable to human operators because the policy is stored in a black-box deep neural network. These issues become critical when human operators want to verify the trained rules, control the trained agent, and to add action restrictions.
 
-In order to address these issues, reinforcement learning methods which introduce symbolic representations and reasoning in deep complex network have been proposed in Dong et al. (2019); Anderson et al. (2020); Kimura et al. (2021); Chaudhury et al. (2021). Neural Logic Machine (NLM, Dong et al. (2019)) incorporates a neural-symbolic architecture for both inductive learning and logic reasoning, using tensors to represent logic predicates. Reinforcement Learning with Formally Verified Exploration (REVEL, Anderson et al. (2020)) has two policy classes: a general, neurosymbolic class with approximate gradients and a more restricted class of symbolic policies that allows efficient verification. Neuro-Symbolic Reinforcement Learning with First-Order Logic in LNN (FOL-LNN, Kimura et al. (2021)) proposes an algorithm for extracting first-order logical facts from text observation and external word meaning network, and trains a policy using logical neural network (LNN, Riegel et al. (2020)) with directly interpretable logical operators. SymboLic Action policy for Textual Environments (SLATE, Chaudhury et al. (2021)) learns interpretable action policy rules from symbolic abstractions of textual observations for improved generalization. These methods are generally called “Neuro-Symbolic Reinforcement Learning”, and they combine knowledge-driven symbolic reasoning and data-driven machine learning approaches.
+ The software engineering community has a strong history on symbolic methods (formal methods, programming languages, etc.) and, more recently, has been quickly adopting machine learning techniques in most of its tasks like automated program repair, program synthesis, code generation & summarization and verification planning.  Many have also taken note of the possibilities of combining the strengths of symbolic and learning techniques, for instance, in the engineering complex software in autonomic, self-adaptive systems, and multi-agents systems as well improving automated methods for bug fixing, code review, and test generation. 
+    
+We plan to collect experiences, challenges, and solutions involved in combining symbolic methods and machine learning to tackle new and traditional challenges of software engineering task from requirements to analysis & design, coding, testing, and maintenance & evolution. These contributions could be in the form of case studies, proofs-of-concept, new ideas and emerging results, evaluation of tools, controlled experiments with software engineers. e.g., specifying logical rules/constraints or utilizing machine learning recommendations.
 
-We believe that incorporating symbolic representations and reasoning into deep learning can potentially solve many of the challenges facing action decision making and reinforcement learning. The primary goal of this workshop is to facilitate community building: we hope to bring researchers together to consolidate this line of research and foster collaboration in the community.
+Preliminary List of Topics
 
-In this workshop, we will cover following challenges in decision making and RL:
+- Neuro-symbolic methods in automated software engineering tools, e.g., code & test generation, bug fixing, code summarization, code review, etc.
+- Neuro-Symbolic agents to support collaboration and decision making in software teams.
+- Neuro-Symbolic methods in validation and verification tools.
+- Neuro-Symbolic methods for designing safety-mission-critical systems.
+- Neuro-Symbolic methods for extracting and maintaining knowledge graphs for software engineering.
+- Methods for reasoning about learning from software data.
+- Methods for learning while reasoning about software, e.g., automatically & adaptively determine decision thresholds and magnitude of actions for a desired effect of a software tool & technique.
+- Methods for applying prior symbolic or probabilistic knowledge to new or improved software tools & methods.
 
-- **Neuro-Symbolic Agents**
-- **Neuro-Symbolic Reinforcement Learning**
-- **Neuro-Symbolic Chat Bot**
-- **Safe Reinforcement Learning by Neuro-Symbolic Approach**
-- **Explainability through Neuro-Symbolic Reinforcement Learning**
-- **Neuro-Symbolic Model-based Reinforcement Learning**
-- **Decision Making by Planning with Neuro-Symbolic Approaches**
 
 {: #cfp }
 
-# Call for Paper
+# Call for Papers
 
 We welcome original research papers ranging between **4-8 pages** in length (not including references or supplementary materials) which is formatted according to the IJCAI guidelines [link](https://www.ijcai.org/authors_kit). Reviews are **double blind**, so no identifying information should be on the papers.
 
@@ -122,20 +125,11 @@ There will be a poster session during the scheduled coffee breaks to facilitate 
 
 #### Oral and Poster
 
-- Minori Narita, and Daiki Kimura, "Introducing Trial-and-Error Exploration to Avoid Critical Failure for Efficient Reinforcement Learning"
-- Jaeil Park, and Sung-Bae Cho, "[A Neuro-Symbolic Approach with Reinforcement Learning for Explainable Question Answering in Pedestrian Anomaly Video Sequence](assets/papers/A Neuro-Symbolic Approach with Reinforcement Learning for Explainable Question Answering in Pedestrian Anomaly Video Sequence.pdf)"
-- Daiki Kimura, Stefan Zecevic, Subhajit Chaudhury, Sarathkrishna Swaminathan, Don Joven Agravante, Michiaki Tatsubori, Asim Munawar, and Alexander Gray, "Explainable Neuro-Symbolic Reinforcement Learning"
-- Naman Shah, and Siddharth Srivastava, "Learning Neuro-Symbolic Abstractions for Motion Planning Under Uncertainty"
-- Don Joven Agravante, Daiki Kimura, Michiaki Tatsubori, Asim Munawar, and Alexander Gray, "[Neuro-Symbolic Model-based RL with Logical Neural Network](assets/papers/Neuro-Symbolic Model-based RL with Logical Neural Network.pdf)"
-- Leonid A Ugadiarov, and Aleksandr Panov, "[Object-Oriented Decomposition of World Model in Reinforcement Learning](assets/papers/Object-Oriented Decomposition of World Model in Reinforcement Learning.pdf)"
+TBD
 
 #### Poster
 
-- Guy Azran, Mohamad H Danesh, Stefano V Albrecht, and Sarah Keren, "[Contextual Pre-Planning on Reward Machine Abstractions for Enhanced Transfer in Deep Reinforcement Learning](assets/papers/Contextual Pre-Planning on Reward Machine Abstractions for Enhanced Transfer in Deep Reinforcement Learning.pdf)"
-- Zahra Chaghazardi, Saber Fallah, and Alireza Nezhad-Tamaddoni, "Explainable and Trustworthy Traffic Sign Detection for Safe Autonomous Driving: A Neuro-Symbolic approach"
-- Giacomo Frisoni, Paolo Italiani, Stefano Salvatori, and Gianluca Moro, "[Cogito Ergo Summ: Abstractive Summarization of Biomedical Papers via Semantic Parsing Graphs and Consistency Rewards](assets/papers/Cogito Ergo Summ Abstractive Summarization of Biomedical Papers via Semantic Parsing Graphs and Consistency Rewards.pdf)"
-- Chitra K Subramanian, Sarathkrishna Swaminathan, Miao Liu, Mauricio Longinos, Aporva Amarnath, Karthik Swaminathan, Martin Cochet, Kevin Roman, and Pradip Bose, "[A Neuro-Symbolic Approach to Runtime Optimization in Resource Constrained Heterogeneous Systems](assets/papers/A Neuro-Symbolic Approach to Runtime Optimization in Resource Constrained Heterogeneous Systems.pdf)"
-- Daniil Kirilenko, Vitaliy Vorobyov, Alexey K Kovalev, and Aleksandr Panov, "[COMPAS: Compose Actions and Slots in Object-Centric World Models](assets/papers/COMPAS Compose Actions and Slots in Object-Centric World Models.pdf)"
+TBD
 
 {: #schedule }
 
