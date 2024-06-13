@@ -3,20 +3,11 @@ layout: default
 permalink: /
 
 speakers:
-  - name: Alexander Gray
-    url: https://research.gatech.edu/data/seminar-series/alexander-gray
-    affiliation: IBM Thomas J. Watson Research Center
-    image: assets/img/Alexander_Gray.jpg
+  - name: Keynote Speaker 1
 
-  - name: Luc De Raedt
-    url: https://wms.cs.kuleuven.be/people/lucderaedt
-    affiliation: KU Leuven
-    image: assets/img/Luc_De_Raedt.jpg
+  - name: Keynote Speaker 2
 
-  - name: Wang-Zhou Dai
-    url: https://daiwz.net/
-    affiliation: Nanjing University
-    image: assets/img/WangZhou_Dai.jpg
+  - name: Keynote Speaker 3
 
 organizers:
   - name: Christian Medeiros Adriano
@@ -42,29 +33,12 @@ organizers:
    
 
 pcs:
-  - name: Divanisha Patel
-    affiliation: University of the Witwatersrand
+  - name: Lucas Sakizloglou
+    affiliation: Brandenburg University of Technology, Germany
 
-  - name: Geraud Nangue Tasse
-    affiliation: University of the Witwatersrand
+  - name: Holger Giese
+    affiliation: Hasso Plattner Institue, Germany
 
-  - name: Jiayuan Mao
-    affiliation: Massachusetts Institute of Technology
-
-  - name: Kyle Harper Erwin
-    affiliation: IBM Research - Africa
-
-  - name: Minori Narita
-    affiliation: University of Toronto
-
-  - name: Naweed Aghmad Khan
-    affiliation: IBM Research - Africa
-
-  - name: Sarathkrishna Swaminathan
-    affiliation: IBM Research - Almaden
-
-  - name: Tristan Bester
-    affiliation: University of the Witwatersrand
 ---
 
 # Workshop Description
@@ -90,46 +64,49 @@ Preliminary List of Topics
 
 # Call for Papers
 
-We welcome original research papers ranging between **4-8 pages** in length (not including references or supplementary materials) which is formatted according to the IJCAI guidelines [link](https://www.ijcai.org/authors_kit). Reviews are **double blind**, so no identifying information should be on the papers.
+We welcome two types of original research papers: full papers (max. 6 pages) and short papers (max. 4 pages, in both cases not including references or supplementary materials) which is formatted according to the ICSE 2025 guidelines. 
 
-Please submit your paper at here: [Microsoft CMT site](https://cmt3.research.microsoft.com/NSAIJCAI2023/Submission/Index)
+Please submit your paper here: [HotCRP](https://icse2025-workshops.hotcrp.com/)
 
-We also welcome extended abstracts of up to **2 pages** (not including references) that describe open problems and challenges in the area of Neuro-Symbolic Agent.
+We also welcome extended abstracts of up to **2 pages** (not including references) that describe open problems and challenges in the area of Neuro-Symbolic methods applied to Software Engineering.
 
-The papers will be non-archival, which means we welcome papers that have been published or submitted to other conferences and journals. However, authors are required to acknowledge their papers’ original appearance in such cases.
+Accepted papers and extended abstracts will be presented as in a short-pitch (3 min) session.
 
-All accepted papers and extended abstracts will be presented as posters.
+There will be a reflection session at the end of the workshop to facilitate discussions among attendees.
 
-The program committee will select some papers for oral presentation.
-There will be a poster session during the scheduled coffee breaks to facilitate discussions among attendees.
+Workshop papers will be published by IEEE.
 
 **Summary:**
 
-- **Length: 4-8 pages (research paper), or 2 pages (extended abstract)**
-- **Double blind**
-- **Two types of accept: Accept (oral & poster), Accept (poster)**
-- **Submission site: [Microsoft CMT site](https://cmt3.research.microsoft.com/NSAIJCAI2023/Submission/Index)**
+- **Length: 4-6 pages (research paper), or 2 pages (extended abstract)**
+- **Two types of presentations: full presentations and short pitches**
+- **Submission site: [HotCRP](https://icse2025-workshops.hotcrp.com/)**
 
 {: #dates }
 
 # Important Dates
 
-- Submission deadline: **May 25th, 2023 (11:59 pm AOE)**
-- Acceptance notification: **June 5th, 2023**
-- Camera ready for accepted submissions: **June 20th, 2023 (11:59 pm AOE)**
-- Workshop date: **August 20th, 2023: Workshop W26 @ Almaty 6006**
+- Submission deadline: **November 11th 2024 (AOE)**
+- Acceptance notification: **December 1st, 2023 (AOE)**
+- Camera ready for accepted submissions: **Feb 5th, 2025 (AOE)**
+- Workshop date: **April 28, 2025**
 
 {: #papers }
 
 # Accepted papers
 
-#### Oral and Poster
+#### Research papers
 
-TBD
+- Authors Paper 1, "Title of Paper 1".
+- Authors Paper 2, "Title of Paper 2".
+- Authors Paper 3, "Title of Paper 3".
+- Authors Paper 4, "Title of Paper 4".
+- Authors Paper 5, "Title of Paper 5".
 
-#### Poster
 
-TBD
+#### Short papers and extended abstract
+
+- Authors Short Paper 1, "Title of Short Paper 1".
 
 {: #schedule }
 
@@ -137,20 +114,20 @@ TBD
 
 | Time  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agenda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |                                                                                                                                             |
 | ----- | ------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8:50  | Opening                                                                                                | Ndivhuwo Makondo                                                                                                                            |
-| 9:00  | Invited talk                                                                                           | Alexander Gray, "Can Knowledge, Reasoning, and Learning be Smoothly Integrated? Toward Safe AI Agents"                                      |
-| 10:00 | Contributed talk                                                                                       | Daiki Kimura, "Explainable Neuro-Symbolic Reinforcement Learning"                                                                           |
+| 8:50  | Opening                                                                                                | The organizers                                                                                                                            |
+| 9:00  | Invited talk                                                                                           | Keynote Speaker 1, "Keynote on Neuro-Symbolic AI for Software Engineering"                                      |
+| 10:00 | Paper presentation                                                                                      | Presentation Paper 1                                                                         |
 | 10:30 | Coffee break                                                                                           |                                                                                                                                             |
-| 11:00 | Invited talk                                                                                           | Luc De Raedt, "How to Make Logics Neurosymbolic"                                                                                            |
-| 12:00 | Contributed talk                                                                                       | Aleksandr Panov, "Object-Oriented Decomposition of World Model in Reinforcement Learning"                                                   |
+| 11:00 | Invited talk                                                                                           | Keynote Speaker 2, "Another Invited Talk on Neuro-Symbolic Methods"                                                                                            |
+| 12:00 | Paper presentation                                                                                       | Presentation Paper 2                                                   |
 | 12:30 | Lunch break                                                                                            |                                                                                                                                             |
-| 14:00 | Invited talk                                                                                           | Wang-Zhou Dai, "Towards Openworld Abductive Learning"                                                                                       |
-| 15:00 | Contributed talk                                                                                       | Naman Shah, "Learning Neuro-Symbolic Abstraction for Motion Planning Under Uncertainty"                                                     |
+| 14:00 | Invited talk                                                                                           | Keynote Speaker 3, "The Last Invited Talk on Neuro-Symbolic AI"                                                                                       |
+| 15:00 | Paper presentation                                                                                      | Presentation Paper 3                                                     |
 | 15:30 | Coffee break                                                                                           |                                                                                                                                             |
-| 16:00 | Contributed talk                                                                                       | Jaeil Park, "A Neuro-Symbolic Approach with Reinforcement Learning for Explainable Question Answering in Pedestrian Anomaly Video Sequence" |
-| 16:30 | Contributed talk                                                                                       | Daiki Kimura, "Introducing Trial-and-Error Exploration to Avoid Critical Failure for Efficient Reinforcement Learning"                      |
-| 16:45 | Contributed talk                                                                                       | Daiki Kimura, "Neuro-Symbolic Model-based RL with Logical Neural Network"                                                                   |
-| 17:00 | Poster                                                                                                 | All contributed papers                                                                                                                      |
+| 16:00 | Contributed talk                                                                                       | Presentation Paper 4 |
+| 16:30 | Contributed talk                                                                                       | Presentation Paper 5        |
+| 16:45 | Contributed talk                                                                                       | Presentation Paper 6                                                                  |
+| 17:00 | Reflection block (open end)                                                                                                 | All participants                                                                                                                       |
 
 {: #invited }
 
