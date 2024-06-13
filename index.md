@@ -43,8 +43,9 @@ pcs:
 
 # Workshop Description
 
-
- The software engineering community has a strong history on symbolic methods (formal methods, programming languages, etc.) and, more recently, has been quickly adopting machine learning techniques in most of its tasks like automated program repair, program synthesis, code generation & summarization and verification planning.  Many have also taken note of the possibilities of combining the strengths of symbolic and learning techniques, for instance, in the engineering complex software in autonomic, self-adaptive systems, and multi-agents systems as well improving automated methods for bug fixing, code review, and test generation. 
+Software engineering has a success history evolving symbolic techniques like formal methods and programming languages to solve increasingly challenging problems like providing safety and performance guarantees for autonomous intelligent systems fulfilling mission-critical functions. With the availability of machine learning (ML) techniques, software engineering expanded its set of problems to how learning from data enables from code summarization and generation to automatic program repair and formal verification. 
+The integration of symbolic and machine learning techniques has opened new novel methodological challenges that go beyond applying ML to build software (ML4SE) or applying software engineering to build ML (SE4ML).  These challenges fall under the umbrella of Neuro-Symbolic methods and comprise problems of how to - "reason while learning” and "learn while reasoning”. 
+The workshop aims to discuss these problems in the context of software engineering tasks that have been transformed by the adoption of machine learning techniques. We invite insights on merging symbolic and ML techniques across the software development life-cycle, its activities, tasks, and tools. We welcome case studies, conceptual innovative approach descriptions, empirical research, and more formal or theoretical considerations.   
     
 We plan to collect experiences, challenges, and solutions involved in combining symbolic methods and machine learning to tackle new and traditional challenges of software engineering task from requirements to analysis & design, coding, testing, and maintenance & evolution. These contributions could be in the form of case studies, proofs-of-concept, new ideas and emerging results, evaluation of tools, controlled experiments with software engineers. e.g., specifying logical rules/constraints or utilizing machine learning recommendations.
 
@@ -64,23 +65,18 @@ Preliminary List of Topics
 
 # Call for Papers
 
-We welcome two types of original research papers: full papers (max. 6 pages) and short papers (max. 4 pages, in both cases not including references or supplementary materials) which is formatted according to the ICSE 2025 guidelines. 
+NSE seeks submissions describing novel research, emerging ideas, work-in-progress describing original and unpublished results in the field of Neuro-symbolic methods for software engineering. 
 
-Please submit your paper here: [HotCRP](https://icse2025-workshops.hotcrp.com/)
+The ICSE 2025 workshop proceedings will be prepared by IEEE CPS and published by ACM and follow the [instructions](https://www.acm.org/publications/proceedings-template) available using the double-column format. Research papers must have a maximum length of 6 pages. Short papers are limited to 4 pages. Industry demonstrations and extended abstracts must have a maximum lengths of 2 pages. There is no limit on the number of submissions an author may submit. We will follow a single-blind process, i.e., it is not required to anonymize the submission.
 
-We also welcome extended abstracts of up to **2 pages** (not including references) that describe open problems and challenges in the area of Neuro-Symbolic methods applied to Software Engineering.
+As per the standard ACM policies, all submissions should be original, i.e., they should not have been previously published in any conference proceedings, book, or journal and should not currently be under review for another archival conference. Alleged violations of this policy or any ACM Publications Policy will be investigated by ACM and may result in a full retraction of your paper, in addition to other potential penalties. Papers must be submitted electronically by the defined deadline (see below).
 
-Accepted papers and extended abstracts will be presented as in a short-pitch (3 min) session.
-
-There will be a reflection session at the end of the workshop to facilitate discussions among attendees.
-
-Workshop papers will be published by IEEE.
+Please submit your paper here: [EasyChair](https://www.easychair.org)
 
 **Summary:**
 
 - **Length: 4-6 pages (research paper), or 2 pages (extended abstract)**
-- **Two types of presentations: full presentations and short pitches**
-- **Submission site: [HotCRP](https://icse2025-workshops.hotcrp.com/)**
+- **Submission site: [EasyChair](https://www.easychair.org/)**
 
 {: #dates }
 
