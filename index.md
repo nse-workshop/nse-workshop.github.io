@@ -17,12 +17,12 @@ organizers:
 
   - name: Sona Ghahremani
     url: https://hpi.de/en/giese/people/sona-ghahremani.html
-    affiliation: Hasso Plattner Institute, University of Potsdam, Germany
+    affiliation: Hasso Plattner Institute, University of Potsdam, Germany <br> <i>(primary contact)</i>
     image: assets/img/sona.jpg
 
   - name: Daiki Kimura
     url: https://researcher.watson.ibm.com/researcher/view.php?person=jp-DAIKI
-    affiliation: IBM Research - Tokyo <br> <i>(primary contact)</i>
+    affiliation: IBM Research - Tokyo 
     image: assets/img/Daiki_Kimura.jpg
 
   - name: Rubén Ruiz-Torrubiano
