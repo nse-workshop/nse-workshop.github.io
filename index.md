@@ -194,15 +194,15 @@ Please submit your paper here: [EasyChair](https://www.easychair.org)
 ### Reference
 
 - A. Agiollo and A. Omicini. Measuring trustworthiness in neuro-symbolic integration. In 2023 18th Conference on Computer Science and Intelligence Systems (FedCSIS), pages 1–10. IEEE, 2023.
-- S. Arakelyan, A. Hakhverdyan, M. Allamanis, L. Garcia, C. Hauser, and X. Ren. Ns3: Neuro-symbolic semantic code search. Advances in Neural Information Processing Systems, 35:10476–10491, 2022.<\li>
-- B. P. Bhuyan, A. Ramdane-Cherif, R. Tomar, and T. Singh. Neuro-symbolic artificial intelligence: a survey. Neural Computing and Applications, pages 1–36, 2024.<\li>
-- S. Chaudhuri, K. Ellis, O. Polozov, R. Singh, A. Solar-Lezama, Y. Yue, et al. Neurosymbolic programming. Foundations and Trends in Programming Languages, 7(3):158–243, 2021
-- L. Dennis, M. Farrell, and M. Fisher. Developing multi-agent systems with degrees of neuro-symbolic integration [a position paper]. arXiv:2305.11534, 2023    
+- S. Arakelyan, A. Hakhverdyan, M. Allamanis, L. Garcia, C. Hauser, and X. Ren. Ns3: Neuro-symbolic semantic code search. Advances in Neural Information Processing Systems, 35:10476–10491, 2022.
+- B. P. Bhuyan, A. Ramdane-Cherif, R. Tomar, and T. Singh. Neuro-symbolic artificial intelligence: a survey. Neural Computing and Applications, pages 1–36, 2024.
+- S. Chaudhuri, K. Ellis, O. Polozov, R. Singh, A. Solar-Lezama, Y. Yue, et al. Neurosymbolic programming. Foundations and Trends in Programming Languages, 7(3):158–243, 2021.
+- L. Dennis, M. Farrell, and M. Fisher. Developing multi-agent systems with degrees of neuro-symbolic integration [a position paper]. arXiv:2305.11534, 2023.
 - J. Devlin, J. Uesato, R. Singh, and P. Kohli. Semantic code repair using neuro-symbolic transformation networks. arXiv:1710.11054, 2017.
 - Y. Hu, X. Shi, Q. Zhou, and L. Pike. Fix bugs with transformer through a neural-symbolic edit grammar. arXiv:2204.06643, 2022.
 - S. K. Jha, S. Jha, P. Lincoln, N. D. Bastian, A. Velasquez, R. Ewetz, and S. Neema. Counterexample guided inductive synthesis using large language models and satisfiability solving. In MILCOM 2023-2023 IEEE Military Communications Conference (MILCOM), pages 944–949. IEEE, 2023.
-- P. Kouvaros. Towards formal verification of neuro-symbolic multi-agent systems. In Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence, pages 7014–7019, 2023
-- T. Mossakowski. Modular design patterns for neural-symbolic integration: refinement and combination. arXiv:2206.04724,2022    
+- P. Kouvaros. Towards formal verification of neuro-symbolic multi-agent systems. In Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence, pages 7014–7019, 2023.
+- T. Mossakowski. Modular design patterns for neural-symbolic integration: refinement and combination. arXiv:2206.04724,2022.    
 - E. Parisotto, A.-r. Mohamed, R. Singh, L. Li, D. Zhou, and P. Kohli. Neuro-symbolic program synthesis. arXiv:1611.01855, 2016.
 - A. ten Teije and F. van Harmelen. Architectural patterns for neurosymbolic ai. Compendium of Neurosymbolic Artificial Intelligence, 369:64, 2023.
 - J. Renkhoff, K. Feng, M. Meier-Doernberg, A. Velasquez, and H. H. Song. A survey on verification and validation, testing and evaluations of neurosymbolic artificial intelligence. IEEE Transactions on Artificial Intelligence, 2024.
