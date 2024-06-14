@@ -33,15 +33,14 @@ organizers:
    
 
 pcs:
+  - name: Danilo	Valerio
+    affiliation: Siemens AG, Austria
+    
   - name: Lucas Sakizloglou
     affiliation: Brandenburg University of Technology, Germany
 
   - name: Holger Giese
     affiliation: Hasso Plattner Institue, Germany
-
-  - name: Danilo	Valerio
-    affiliation: Siemens AG, Austria
-
 ---
 
 # Workshop Description
