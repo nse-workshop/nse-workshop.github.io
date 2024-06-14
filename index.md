@@ -30,8 +30,6 @@ organizers:
     affiliation: IMC Krems University of Applied Sciences, Austria
     image: assets/img/ruben.png
 
-   
-
 pcs:
   - name: Danilo	Valerio
     affiliation: Siemens AG, Austria
