@@ -30,17 +30,18 @@ organizers:
     affiliation: IMC Krems University of Applied Sciences, Austria
     image: assets/img/ruben.png
 
+
 pcs:
   - name: Holger Giese
     affiliation: Hasso Plattner Institue, Germany
 
-   - name: Steven James
+  - name: Steven James
     affiliation: University of the Witwatersrand, South Africa
 
-   - name: Lucas Sakizloglou
+  - name: Lucas Sakizloglou
     affiliation: Brandenburg University of Technology, German
 
-   - name: Danilo	Valerio
+  - name: Danilo Valerio
     affiliation: Siemens AG, Austria
 
 ---
