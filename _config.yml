@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "NSE: Neuro-Symbolic Software Engineering Workshop"
-subtitle: "ICSE 2025 in Ottawa, Canada"
+subtitle: "ICSE 2026 in Rio de Janeiro, Brazil"
 email: daiki@jp.ibm.com
 description: >-
   Combining ML and symbolic AI for software engineering

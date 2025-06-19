@@ -46,27 +46,34 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <!-- 
+<script>
+      // Set the countdown time in seconds
+      let countdown = 5;
 
-<div class="container">
-  <h1>404</h1>
+      function startCountdown() {
+          const countdownElement = document.getElementById("countdown");
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+          // Update the countdown every second
+          const interval = setInterval(() => {
+              countdown--;
+              countdownElement.textContent = countdown;
 
+              if (countdown <= 0) {
+                  clearInterval(interval);
+                  // Redirect to another web page
+                  window.location.href = "https://conf.researchr.org/home/icse-2025/nse-2025";
+              }
+          }, 1000);
+      }
+
+      window.onload = startCountdown;
+</script>
+
+## Redirecting to official ICSE 2025 Workshop webpage
+<center><p>You will be redirected in <span id="countdown">5</span> seconds.</p></center>
+
+>
     </main>
 </body>
 
