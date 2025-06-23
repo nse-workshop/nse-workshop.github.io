@@ -3,11 +3,11 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"../../../tmp/jekyll-remote-theme-20250619-94154-gl0chu/_sass/cayman.scss",
-		"../../../tmp/jekyll-remote-theme-20250619-94154-gl0chu/_sass/jekyll-theme-cayman.scss",
-		"../../../tmp/jekyll-remote-theme-20250619-94154-gl0chu/_sass/normalize.scss",
-		"../../../tmp/jekyll-remote-theme-20250619-94154-gl0chu/_sass/rouge-github.scss",
-		"../../../tmp/jekyll-remote-theme-20250619-94154-gl0chu/_sass/variables.scss"
+		"../../../tmp/jekyll-remote-theme-20250623-1747-1tvbip/_sass/cayman.scss",
+		"../../../tmp/jekyll-remote-theme-20250623-1747-1tvbip/_sass/jekyll-theme-cayman.scss",
+		"../../../tmp/jekyll-remote-theme-20250623-1747-1tvbip/_sass/normalize.scss",
+		"../../../tmp/jekyll-remote-theme-20250623-1747-1tvbip/_sass/rouge-github.scss",
+		"../../../tmp/jekyll-remote-theme-20250623-1747-1tvbip/_sass/variables.scss"
 	],
 	"sourcesContent": [
 		"@import \"cayman\";\n\n.page-header {\n  color: #fff;\n  text-align: center;\n  background-color: #171718;\n  background-image: linear-gradient(120deg, #171718, #9133b3);\n}\n\n.project-name {\n  margin-bottom: 1.5rem;\n}\n\n.main-content h1,\n.main-content h2,\n.main-content h3,\n.main-content h4,\n.main-content h5,\n.main-content h6 {\n  margin-top: 5rem;\n  margin-bottom: 2rem;\n  font-weight: normal;\n  color: #9133b3;\n  text-align: center;\n}\n\n.member-box img {\n  border-radius: 50%;\n}\n\n.member-box {\n  margin-bottom: 20pt;\n}\n\ntable {\n  display: table !important;\n  text-align: center;\n  margin-left: auto;\n  margin-right: auto;\n}",
